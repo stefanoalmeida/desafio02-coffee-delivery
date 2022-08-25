@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 104px;
+
+  padding: 32px 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.buttonLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  padding: 8px;
+  width: auto;
+  height: 38px;
+
+  background-color: #EBE5F9;
+  border-radius: 6px;
+  border: none;
+
+  color: #4B2995;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.buttonCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  width: 38px;
+  height: 38px;
+
+  padding: 8px;
+
+  background-color: #F1E9C9;
+
+  border: none;
+  border-radius: 6px;
+
+  color: #C47F17;
+
+  cursor: pointer;
+
+  transition: filter .2s;
+}
+
+.buttonCart:hover {
+  filter: brightness(.9);
+}

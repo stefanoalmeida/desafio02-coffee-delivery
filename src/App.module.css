@@ -1,0 +1,16 @@
+.container {
+  max-width: 1440px;
+  height: 2293px;
+
+  padding: 0 160px;
+
+  background: #FAFAFA;
+}
+
+.listItems {
+  display: 	flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 32px;
+}
